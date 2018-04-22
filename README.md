@@ -6,7 +6,7 @@ This repository contains 3 folder:
 
 * files: this is the folder which contains the text files necessary to the project, such as the NLSPARQL train and test set, and the features test files. 
 
-Other additional text files are also included:
+Other additional text files are also included in this last folder:
 - trainO.txt: different version of the training set, organized in two columns as the original one. The second column contains the IOB tags, but O tags are substituted with O-token, in order to let this file suitable to the improvement phase.
 - test_sentences.txt: the test set with the content rewritten in order to have a sentence per line
 - train_sentences.txt: the train set with the content rewritten in order to have a sentence per line
