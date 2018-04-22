@@ -1,7 +1,3 @@
-evaluation
-files
-results
-
 This repository contains 3 folder:
 
 -files
