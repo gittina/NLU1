@@ -13,9 +13,9 @@ Other additional text files are also included:
 * evaluation: it contains text files obtained as output from the evaluation perl script, with Fscore, precision, recall indexes.
 
 The module can be run by calling the nlu.sh script. It needs 3 parameters as input: 
--a number from 1 to 5
--a string (one among: absolute, kneser_ney, katz, presmoothed, unsmoothed, witten_bell)
--a text file, e.g. "evaluation/wb2.txt", necessary to save the results on a text file in the evaluation folder
+1. a number from 1 to 5
+2. a string (one among: absolute, kneser_ney, katz, presmoothed, unsmoothed, witten_bell)
+3. a text file, e.g. "evaluation/wb2.txt", necessary to save the results on a text file in the evaluation folder
 
 So, an example of execution can be:
 ```
