@@ -1,7 +1,3 @@
-evaluation
-files
-results
-
 This repository contains 3 folder:
 
 -files
@@ -22,5 +18,6 @@ The module can be run by calling the nlu.sh script. It needs 3 parameters as inp
 -a text file, e.g. "evaluation/wb2.txt", necessary to save the results on a text file in the evaluation folder
 
 So, an example of execution can be:
-./nlu.sh 2 witten_bell evaluation/wb2.txt which calls the scripts necessary to the train and test phase, respectively train.sh and test_results.sh. After that, the perl script for the evaluation is called and the result text file can be found in the evaluation folder, for consultations.
+./nlu.sh 2 witten_bell evaluation/wb2.txt 
+which calls the scripts necessary to the train and test phase, respectively train.sh and test_results.sh. After that, the perl script for the evaluation is called and the result text file can be found in the evaluation folder, for consultations.
 
